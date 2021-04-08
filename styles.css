@@ -1,0 +1,32 @@
+.button{
+  background-color: #8fd6e1;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  color: #150e56;
+  padding: 4%;
+}
+
+h2{
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  background: #7b113a;
+  margin-bottom: 1%;
+  font-size: 35px;
+  color: white;
+  padding: 4%;
+}
+
+.footer {
+  background-color: #1597bb;
+  text-align: center;
+  position: fixed;
+  color: white;
+  height: 30px;
+  width: 100%;
+  bottom: 0;
+  left: 0; 
+}
