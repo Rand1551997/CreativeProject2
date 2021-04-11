@@ -13,12 +13,11 @@
   <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
   <div class="header">
-    <h1>Kitty Store</h1>
+    <h1>Roro Store</h1>
   </div>
   <div class="text">
-
-    <h2>Welcome to Kitty Store</h2>
-    <h2>You can find below some pictures of our favorite cats in store</h2>
+    <h2>Welcome to Roro Store</h2>
+    <h2>You can find below some pictures of our favorite pets in store</h2>
   </div>
   <div id="app">
     <v-app>
@@ -28,15 +27,19 @@
             <div class="button" dark large @click="loadNextImage">
               Keep browsing until you find your favorite cat &nbsp; <v-icon>refresh</v-icon>
             </div>
+            <div class = "buttonOne" dark large @click="loadNextDog">
+              Keep browsing until you find your favorite dog &nbsp; <v-icon>refresh</v-icon>
+            </div>
           </v-layout>
-          <v-layout row wrap>
-            <v-flex xs12>
-              <v-card flat tile class="d-flex">
-                <v-img :src="image.url" contain>
+          <div class = "attributes">
+                <p>origin: {{origin}}</p><br>
+                <p>name: {{name}}</p><br>
+                <p>life_span: {{life_span}}</p><br>
+                <p>temperament: {{temperament}}</p><br>
+                <p>description - bred-for: {{description}}</p><br>
+                <v-img class = "img ":src="image.url" contain>
                 </v-img>
-              </v-card>
-            </v-flex>
-          </v-layout>
+              </div>
         </v-container>
       </v-content>
     </v-app>

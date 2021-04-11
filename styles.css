@@ -1,19 +1,26 @@
-.button{
-  background-color: #8fd6e1;
+.button {
+  background-color: #ffe6e6;
   border-radius: 10px;
   margin-bottom: 50px;
   font-size: 20px;
-  color: #150e56;
+  color: #6155a6;
   padding: 4%;
+  margin-right: 15px;
 }
 
-h2{
-  text-align: center;
+.buttonOne {
+  background-color: #ffe6e6;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  color: #6155a6;
+  padding: 4%; //Inside of a box
+  margin-left: 15px; //Outside of a box
 }
 
 .header {
   text-align: center;
-  background: #7b113a;
+  background: #6155a6;
   margin-bottom: 1%;
   font-size: 35px;
   color: white;
@@ -21,12 +28,20 @@ h2{
 }
 
 .footer {
-  background-color: #1597bb;
+  background-color: #6155a6;
   text-align: center;
   position: fixed;
   color: white;
   height: 30px;
   width: 100%;
   bottom: 0;
-  left: 0; 
+  left: 0;
+}
+
+.img {
+  width: 80%;
+}
+
+h2 {
+  text-align: center;
 }
