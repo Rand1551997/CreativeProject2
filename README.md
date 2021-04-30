@@ -39,4 +39,3 @@ typography -- use appropriate font sizes and paragraph widths to distinguish the
 consistency -- everything should match
 
 color -- use color effectively to make the site appealing -- start with a black and white design and add color last, use colors that are complementary
- 
